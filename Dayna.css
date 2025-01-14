@@ -1,0 +1,37 @@
+#links {
+    display: flex; /* Display items as a row */
+    justify-content: space-between; 
+    list-style: none; /* Remove default list styling */
+    padding: 0; 
+    align-items: ;/* Remove default padding */
+  }
+  
+  #links a {
+    color: #333; /* Set default link color */
+    text-decoration: none; /* Remove default underline */
+    padding: 10px 20px; /* Add padding for better clickability */
+    margin-right: 0 5px; /* Add spacing between links */
+  }
+  
+  #links a.active {
+    background-color: blueviolet; /* Change background color for active link */
+    color: #fff; /* Change text color for active link */
+  }
+  body { background-color: aqua
+    ;}
+    
+.box-header{ 
+    background-color: palevioletred;
+padding: 10px 20px;
+border: 10px solid black;
+margin-block-end: 10px;
+margin-right: 10px;
+width: 1420px;}
+
+img{ 
+    float: right;
+}
+
+p{
+    font-size: medium;
+}
