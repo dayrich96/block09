@@ -3,7 +3,7 @@
     justify-content: space-between; 
     list-style: none; /* Remove default list styling */
     padding: 0; 
-    align-items: ;/* Remove default padding */
+    align-items: center;/* Remove default padding */
   }
   
   #links a {
@@ -34,4 +34,45 @@ img{
 
 p{
     font-size: medium;
+}
+
+
+.box{
+  background-color: paleturquoise;
+  border: 10px solid black;
+  border-bottom: 10px solid black;
+  padding: 3px;
+  width: 860px; /* Adjust width as needed */
+  margin: 10px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.box {
+    display: grid;
+    grid-template-columns: 3px 6px; /* Create 3 columns */
+    grid-gap: 40px; /* Add spacing between grid items */
+  }
+  
+ 
+  .body{
+    background-color: aqua;
+  }
+
+  #box-1{
+    grid-area: box1;
+}
+
+#box-2{
+    grid-area: box2;
+}
+
+#box-3{
+    grid-area: box3;
+}
+#box-4{
+    grid-area: box4;
 }

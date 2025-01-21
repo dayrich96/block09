@@ -1,0 +1,38 @@
+.box{height: 48px;
+    width:48px;
+    border: solid black;
+}
+
+.body{background-color: paleturquoise;
+ width: 1477px;
+height: 500px;
+display:flexbox}
+
+.container{background-color:aqua ;
+    width: 1477px;
+    height:500px;
+    display:flex
+}
+
+
+@media screen and (max-width: 500px) {
+    .container{
+        width:100%;
+        background-color: aqua;
+    }
+}
+    
+@media screen and (min-width: 500px) {
+    .container{
+        width:100%;
+        background-color: aqua; 
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: <breakpoint1>) and (min-width: <breakpoint2>) {
+    
+}

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dayna Lewis</title>
     <link rel="stylesheet" href="Dayna.css">
-    <script scr="javacript.js"></script>
+    <script src="javascript.js"></script>
     <style>
         .box-header{display: block;
         justify-content:space-between;
@@ -13,19 +13,17 @@
     padding: 10px 20px;
 width: 1420px;}
 
-           .box{
+.box{
             background-color: paleturquoise;
             border: 10px solid black;
             border-bottom: 10px solid black;
             padding: 3px;
-            width: 500px; /* Adjust width as needed */
-            margin: 10px;
+            width: 450px; /* Adjust width as needed */
+            margin: 5px;
             display: inline-block;
             justify-content: center;
 
            }
-
-
 
     .logo {
       font-size: 24px;
@@ -50,19 +48,35 @@ width: 1420px;}
             <h1>Dayna Lewis</h1>
         </div>
         <div id="links">
-             <a class="active">HOME</a>
+             <a href="index.html">HOME</a>
             <a href="about.html">ABOUT</a>
             <a href="portfolio.html">PORTFOLIO</a>
-            <a href="contact.html">CONTACT</a>
+            <a class="active">CONTACT</a>
             </div>
         </header>
         </nav>
- <div class="box">
-     <h2>Student, Bookworm, Cook</h2>
-        <img src="https://static.vecteezy.com/system/resources/thumbnails/027/945/597/small/happy-middle-aged-business-afro-woman-ceo-standing-in-office-arms-crossed-photo.jpg" img alt="woman">
-        <p>Interested in learning and improving my skills as a fullstack developer.</p>
-        <q class="quote-inline" id="hayes-quote">The experst in anything was once a beginner.</q>
-            <p>- Helen Hayes</p>
+
+        <main>
+            <div class="box">
+            <h1>Contact:</h1>
+            <form id="form">
+                <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email">
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <input type="text" id="message">
+                </div>
+                <div>
+                    <button type="submit" id="submit">Sumbit</button>
+                </div>
+            </form>
             </div>
+        </main>
 </body>
 </html>

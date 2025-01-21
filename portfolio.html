@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dayan Lewis</title>
+    <title>Dayna Lewis</title>
     <link rel="stylesheet" href="Dayna.css">
     <script src="javascript.js"></script>
     <style>
@@ -13,7 +13,17 @@
     padding: 10px 20px;
 width: 1420px;}
 
-   
+.box{
+            background-color: paleturquoise;
+            border: 10px solid black;
+            border-bottom: 10px solid black;
+            padding: 3px;
+            width: 500px; /* Adjust width as needed */
+            margin: 10px;
+            display: inline-block;
+            justify-content: center;
+
+           }
 
     .logo {
       font-size: 24px;
@@ -41,23 +51,27 @@ width: 1420px;}
             <a href="index.html">HOME</a>
             <a href="about.html">ABOUT</a>
             <a class="active">PORTFOLIO</a>
+            <a href="contact.html">CONTACT</a>
         </div>
         </header>
     </nav>
     <main>
-        <h1 id="portfolio header">Projects that I've participated in.</h1>
+        <div class="box">
+        <h1 id="portfolio-header">Projects that I've participated in.</h1>
         <section class="portfolio">
+            <div id="prortfolio-container">
             <h2>First Project</h2>
-            <img src="https://i.pinimg.com/236x/09/13/72/0913728ed97304c9616427d1efd538cc.jpg">
+            <img src="https://i.pinimg.com/236x/09/13/72/0913728ed97304c9616427d1efd538cc.jpg" img alt="pottery">
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi at
                 earum fuga harum alias nobis, eaque optio laudantium dolor sed
                 eligendi consequatur distinctio aperiam accusantium, architecto
                 exercitationem perferendis minus error.</p>
+            </div>
         </section>
         <section class="portfolio">
         <h2>Second Project</h2>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShyhELm5WFGmf4U_8bOsbaTOXHcl17PBUK3Q&s">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShyhELm5WFGmf4U_8bOsbaTOXHcl17PBUK3Q&s" img alt="baking">
         <p>
             Fuga dolore impedit suscipit, vero odit, sequi in deleniti, odio
             ipsa facere et. Consequatur modi cum ullam adipisci unde amet qui
@@ -66,7 +80,7 @@ width: 1420px;}
         </section>
         <section class="portfolio">
             <h2>Third Project</h2>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKZxH5d1bJrC9KyG3h19w49w70cRmbZFMrjw&s">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKZxH5d1bJrC9KyG3h19w49w70cRmbZFMrjw&s" img alt="candle">
             <p>
                 Eveniet illum illo explicabo ea amet expedita fugiat omnis excepturi
                 dignissimos unde nam beatae consequuntur praesentium quas voluptas,
@@ -74,6 +88,7 @@ width: 1420px;}
                 repellendus! Corporis, ex quo!
             </p>
         </section>
+    </div>
     </main>
 </body>
 </html>
