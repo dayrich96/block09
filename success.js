@@ -1,3 +1,3 @@
 setTimeout(() => {
-    console.log("Hello World");
-  }, 5000);
+  window.location.href = "./index.html";
+}, 5000);

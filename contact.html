@@ -5,23 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dayna Lewis</title>
     <link rel="stylesheet" href="Dayna.css">
-    <script src="javascript.js"></script>
+   <!-- <script src="javascript.js"></script>-->
     <style>
         .box-header{display: block;
         justify-content:space-between;
         align-items: center;
-    padding: 10px 20px;
+    padding: 10px 10px;
 width: 1420px;}
 
 .box{
-            background-color: paleturquoise;
+    background-color: paleturquoise;
             border: 10px solid black;
             border-bottom: 10px solid black;
             padding: 3px;
-            width: 450px; /* Adjust width as needed */
-            margin: 5px;
-            display: inline-block;
-            justify-content: center;
+            width: 850px; /* Adjust width as needed */
+            margin: 10px;
+            display: block   
 
            }
 
@@ -35,7 +34,7 @@ width: 1420px;}
       nav a {
       color: #fff; 
       text-decoration: none; 
-      padding: 10px 20px; /* Add padding for box effect */
+      padding: 10px 10px; /* Add padding for box effect */
       border-radius: 100px; /* Optional: Round the corners of the box */
     }
         
@@ -71,12 +70,24 @@ width: 1420px;}
                 <div>
                     <label for="message">Message:</label>
                     <input type="text" id="message">
+                    <br>
+                    <textarea id="message" name="message" rows="6" cols="50"></textarea>
                 </div>
                 <div>
-                    <button type="submit" id="submit">Sumbit</button>
+                    <button type="submit" id="submit">Submit</button>
                 </div>
             </form>
+            <script>
+                const form = document.querySelector("#form");
+                const submitbutton = document.querySelector("#submit");
+                form.addEventListener("submit", (e) => {
+                    submitbutton.disabled =true;
+                    e.preventDefault();
+                    window.location.href = "./success.html";
+                })
+            </script>
             </div>
         </main>
+        
 </body>
 </html>

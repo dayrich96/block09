@@ -15,7 +15,7 @@ display:flexbox}
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1477px) {
     .container{
         width:100%;
         background-color: aqua;
